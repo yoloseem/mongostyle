@@ -5,8 +5,7 @@ except ImportError:
     from distutils.core import setup
 
 
-VERSION_NUMERIC = (0, 1, 0)
-VERSION = '{0}.{1}.{2}'.format(*VERSION_NUMERIC)
+from mongostyle.version import VERSION
 
 
 def get_readme(readme='README.rst'):
