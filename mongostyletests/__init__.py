@@ -6,5 +6,5 @@ suite = Tests()
 
 @suite.test
 def version():
-    import mongostyle
-    assert mongostyle.VERSION == '0.1.0'
+    import mongostyle.version
+    assert mongostyle.version.VERSION == '0.1.0'

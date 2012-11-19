@@ -1,6 +1,10 @@
 mongostyle
 ==========
 
+.. image:: https://secure.travis-ci.org/kimjayd/mongostyle.png
+   :alt: Build Status
+    :target: https://travis-ci.org/kimjayd/mongostyle
+
 mongostyle is a Python MongoDB Object-Document-Mapper based on pymongo.
 
 .. sourcecode:: pycon
