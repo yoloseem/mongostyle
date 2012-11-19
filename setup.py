@@ -30,6 +30,7 @@ setup(name='mongostyle',
       extras_require={'docs': ['Sphinx']},
       tests_require=['Attest'],
       test_loader='attest:auto_reporter.test_loader',
+      test_suite='mongostyletests.suite',
       classifiers=[
           'Development Status :: 2 - Pre-Alpha',
           'License :: OSI Approved :: MIT License',
