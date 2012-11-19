@@ -1,4 +1,4 @@
 *.pyc
 dist
 build
-mongostyle.egg-info
+*.egg*
